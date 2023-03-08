@@ -1,4 +1,8 @@
 import { gsap } from "gsap";
 
-gsap.to(".rond" , { duration: 1, scale: 1.75, backgroundColor: "red"});
-gsap.to(".carre" , { duration: 1, rotateY: 360, backgroundColor: "black"});
+gsap.from(".titre", { duration: 1, scale: 0.01, ease: "bounce", y: -100, stagger: 0.3, onComplete: () => {
+    gsap.to(".global", { duration: 1, scale: 0.01, y: 200 });
+ } });
+
+
+  

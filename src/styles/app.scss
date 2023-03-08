@@ -1,29 +1,16 @@
 @import 'utils/variables';
 @import 'components/type';
 
-body{
-    background-color: yellow;
-}
-.carre--blanc{
+.global{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 400px;
-    height: 400px;
-    background-color: white;
+    flex-direction: column;
+    font-size: 50px;
 }
-.rond{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 200px;
-    background-color: black;
-    border-radius: 50%;
+.titre{
+    margin: 0;
 }
-.carre{
-    width: 30px;
-    height: 30px;
-    background-color: white;
-
+.titre:last-child{
+    color: red;
 }

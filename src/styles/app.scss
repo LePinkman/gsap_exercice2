@@ -1,0 +1,29 @@
+@import 'utils/variables';
+@import 'components/type';
+
+body{
+    background-color: yellow;
+}
+.carre--blanc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+}
+.rond{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+}
+.carre{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+
+}
